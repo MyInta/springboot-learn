@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="F:/临时文件/javaDocTest" />
+    <option name="OTHER_OPTIONS" value="-encoding UTF-8 -charset UTF-8" />
+    <option name="LOCALE" value="zh_CN" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot-01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-02-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-03-web-restfulcrud/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="true" project-jdk-name="9" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
