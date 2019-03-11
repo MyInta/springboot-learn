@@ -1,11 +1,14 @@
 package cn.ssijri.springboot.controller;
 
+import cn.ssijri.springboot.dao.DepartmentDao;
 import cn.ssijri.springboot.dao.EmployeeDao;
+import cn.ssijri.springboot.entities.Department;
 import cn.ssijri.springboot.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.Collection;
 
@@ -20,6 +23,9 @@ public class EmployeeController {
     @Autowired
     private EmployeeDao employeeDao;
 
+    @Autowired
+    private DepartmentDao departmentDao;
+
     //查询所有员工返回列表
     @GetMapping("/emps")
     public String list(Model model){
@@ -32,4 +38,23 @@ public class EmployeeController {
         return "emp/list";
     }
 
+    //来到员工添加页面
+    @GetMapping("/emp")
+    public String toAddPage(Model model){
+        Collection<Department> departments = departmentDao.getDepartments();
+        model.addAttribute("depts",departments);
+        //返回到添加页面
+        return "emp/add";
+    }
+
+    //添加员工信息
+    //employee参数能传入的原因是SpringMVC的参数绑定，注意参数内属性名和JavaBean是否一致
+    @PostMapping("/emp")
+    public String addEmp(Employee employee){
+
+//        System.out.println(employee+"员工信息");
+        //添加员工信息
+        employeeDao.save(employee);
+        return "redirect:/emps";
+    }
 }
