@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>这是成功页面</title>
+</head>
+<body>
+    <h1>哦，你成功到这儿了，成功！</h1>
+    <div id="div1" class="cls1" th:id="${hello}" th:class="${hello}" th:text="${hello}"></div>
+    <!--转义文本，特殊字符失效-->
+    <div th:text="${hello}"></div>
+    <!--不转义文本，特殊字符生效-->
+    <div th:utext="${hello}"></div>
+    <hr/>
+    <!--th:each 遍历-->
+    <!--h4标签下的遍历会生成同为h4标签的内容-->
+    <h4 th:text="${user}" th:each="user:${users}"></h4>
+    <br/>
+    <h4>
+        <!--行内写法 [()]不转义 [[]]转义内容-->
+        <span th:each="user:${users}"> [(${user})]</span>
+        <span th:each="user:${users}"> [[${user}]]</span>
+    </h4>
+</body>
+</html>
