@@ -1,12 +1,9 @@
 package cn.ssijri.springboot.config;
 
-import cn.ssijri.springboot.component.LoginHandlerInterceptor;
 import cn.ssijri.springboot.component.MyLocaleResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -18,6 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 //@EnableWebMvc 只用自己的配置，不使用默认自动加载配置
 @Configuration
 public class MyMvcConfig implements WebMvcConfigurer {
+
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
