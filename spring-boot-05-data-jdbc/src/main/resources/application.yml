@@ -2,7 +2,9 @@ spring:
   datasource:
     username: root
     password: 13201230
-    url: jdbc:mysql://localhost:3306/springboot_jdbc_test?serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/springboot_jdbc_test?serverTimezone=UTC
+#    driver-class-name: com.mysql.jdbc.Driver
     driver-class-name: com.mysql.cj.jdbc.Driver
     schema:
       - classpath:department.sql
+    initialization-mode: always
