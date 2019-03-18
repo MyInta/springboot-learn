@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author inta
  * @date 2019/3/17
- * @describe
+ * @describe 开启驼峰识别 即xxName和xx_name贯通
  */
 @Configuration
 public class MybatisConfig {
