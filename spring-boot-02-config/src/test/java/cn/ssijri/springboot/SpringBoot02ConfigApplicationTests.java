@@ -10,6 +10,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.junit4.SpringRunner;
 
+/**
+ * springboot单元测试
+ * 可以在测试期间类似编码一样自动注入的容器功能
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SpringBoot02ConfigApplicationTests {

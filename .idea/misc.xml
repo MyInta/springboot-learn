@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-04-web-jsp" />
+  </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" value="F:/临时文件/javaDocTest" />
     <option name="OTHER_OPTIONS" value="-encoding UTF-8 -charset UTF-8" />
@@ -11,6 +14,17 @@
         <option value="$PROJECT_DIR$/spring-boot-01-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-02-config/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-03-web-restfulcrud/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-04-web-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-05-data-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-06-data-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-07-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-08-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-06-data-mybatis-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-06-data-mybatis-multipledatasource/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-09-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-10-schedul/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-10-schedule/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-11-mail/pom.xml" />
       </list>
     </option>
   </component>

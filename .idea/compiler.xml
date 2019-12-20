@@ -9,12 +9,33 @@
         <module name="spring-boot-01-helloworld" />
         <module name="spring-boot-02-config" />
         <module name="spring-boot-03-web-restfulcrud" />
+        <module name="spring-boot-04-web-jsp" />
+        <module name="spring-boot-05-data-jdbc" />
+        <module name="spring-boot-06-data-mybatis" />
+        <module name="spring-boot-06-data-mybatis-multipledatasource" />
+        <module name="spring-boot-06-data-mybatis-test" />
+        <module name="spring-boot-07-data-jpa" />
+        <module name="spring-boot-08-redis" />
+        <module name="spring-boot-09-rabbitmq" />
+        <module name="spring-boot-10-schedule" />
+        <module name="spring-boot-11-mail" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-boot-01-helloworld" target="1.9" />
-      <module name="spring-boot-02-config" target="1.9" />
-      <module name="spring-boot-03-web-restfulcrud" target="1.9" />
+      <module name="demo" target="1.8" />
+      <module name="spring-boot-01-helloworld" target="1.8" />
+      <module name="spring-boot-02-config" target="1.8" />
+      <module name="spring-boot-03-web-restfulcrud" target="1.8" />
+      <module name="spring-boot-04-web-jsp" target="1.8" />
+      <module name="spring-boot-05-data-jdbc" target="1.8" />
+      <module name="spring-boot-06-data-mybatis" target="1.8" />
+      <module name="spring-boot-06-data-mybatis-multipledatasource" target="1.8" />
+      <module name="spring-boot-06-data-mybatis-test" target="1.8" />
+      <module name="spring-boot-07-data-jpa" target="1.8" />
+      <module name="spring-boot-08-redis" target="1.8" />
+      <module name="spring-boot-09-rabbitmq" target="1.8" />
+      <module name="spring-boot-10-schedule" target="1.8" />
+      <module name="spring-boot-11-mail" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

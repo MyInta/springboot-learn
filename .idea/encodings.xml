@@ -4,5 +4,16 @@
     <file url="file://$PROJECT_DIR$/spring-boot-01-helloworld" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-02-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-03-web-restfulcrud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-04-web-jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-05-data-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-06-data-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-06-data-mybatis-multipledatasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-06-data-mybatis-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-07-data-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-08-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-09-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-10-schedule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-11-mail" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
