@@ -19,6 +19,9 @@
         <module name="spring-boot-09-rabbitmq" />
         <module name="spring-boot-10-schedule" />
         <module name="spring-boot-11-mail" />
+        <module name="spring-boot-12-mongodb" />
+        <module name="spring-boot-12-multimongodb" />
+        <module name="spring-boot-13-shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +39,9 @@
       <module name="spring-boot-09-rabbitmq" target="1.8" />
       <module name="spring-boot-10-schedule" target="1.8" />
       <module name="spring-boot-11-mail" target="1.8" />
+      <module name="spring-boot-12-mongodb" target="1.8" />
+      <module name="spring-boot-12-multimongodb" target="1.8" />
+      <module name="spring-boot-13-shiro" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

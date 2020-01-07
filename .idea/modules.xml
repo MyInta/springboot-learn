@@ -16,6 +16,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-09-rabbitmq/spring-boot-09-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-09-rabbitmq/spring-boot-09-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-10-schedule/spring-boot-10-schedule.iml" filepath="$PROJECT_DIR$/spring-boot-10-schedule/spring-boot-10-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-11-mail/spring-boot-11-mail.iml" filepath="$PROJECT_DIR$/spring-boot-11-mail/spring-boot-11-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-12-mongodb/spring-boot-12-mongodb.iml" filepath="$PROJECT_DIR$/spring-boot-12-mongodb/spring-boot-12-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-12-multimongodb/spring-boot-12-multimongodb.iml" filepath="$PROJECT_DIR$/spring-boot-12-multimongodb/spring-boot-12-multimongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-13-shiro/spring-boot-13-shiro.iml" filepath="$PROJECT_DIR$/spring-boot-13-shiro/spring-boot-13-shiro.iml" />
     </modules>
   </component>
 </project>

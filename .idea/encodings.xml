@@ -14,6 +14,9 @@
     <file url="file://$PROJECT_DIR$/spring-boot-09-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-10-schedule" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-11-mail" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-12-mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-12-multimongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-13-shiro" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

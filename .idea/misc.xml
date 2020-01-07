@@ -25,6 +25,9 @@
         <option value="$PROJECT_DIR$/spring-boot-10-schedul/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-10-schedule/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-11-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-12-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-12-multimongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-13-shiro/pom.xml" />
       </list>
     </option>
   </component>
