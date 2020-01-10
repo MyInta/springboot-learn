@@ -15,6 +15,7 @@
         <module name="spring-boot-06-data-mybatis-multipledatasource" />
         <module name="spring-boot-06-data-mybatis-test" />
         <module name="spring-boot-07-data-jpa" />
+        <module name="spring-boot-07-data-jpa-thymeleaf" />
         <module name="spring-boot-08-redis" />
         <module name="spring-boot-09-rabbitmq" />
         <module name="spring-boot-10-schedule" />
@@ -22,6 +23,7 @@
         <module name="spring-boot-12-mongodb" />
         <module name="spring-boot-12-multimongodb" />
         <module name="spring-boot-13-shiro" />
+        <module name="spring-boot-14-file-upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +37,7 @@
       <module name="spring-boot-06-data-mybatis-multipledatasource" target="1.8" />
       <module name="spring-boot-06-data-mybatis-test" target="1.8" />
       <module name="spring-boot-07-data-jpa" target="1.8" />
+      <module name="spring-boot-07-data-jpa-thymeleaf" target="1.8" />
       <module name="spring-boot-08-redis" target="1.8" />
       <module name="spring-boot-09-rabbitmq" target="1.8" />
       <module name="spring-boot-10-schedule" target="1.8" />
@@ -42,6 +45,7 @@
       <module name="spring-boot-12-mongodb" target="1.8" />
       <module name="spring-boot-12-multimongodb" target="1.8" />
       <module name="spring-boot-13-shiro" target="1.8" />
+      <module name="spring-boot-14-file-upload" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

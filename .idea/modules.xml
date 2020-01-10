@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-06-data-mybatis-multipledatasource/spring-boot-06-data-mybatis-multipledatasource.iml" filepath="$PROJECT_DIR$/spring-boot-06-data-mybatis-multipledatasource/spring-boot-06-data-mybatis-multipledatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-06-data-mybatis-test/spring-boot-06-data-mybatis-test.iml" filepath="$PROJECT_DIR$/spring-boot-06-data-mybatis-test/spring-boot-06-data-mybatis-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-07-data-jpa/spring-boot-07-data-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-07-data-jpa/spring-boot-07-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-07-data-jpa-thymeleaf/spring-boot-07-data-jpa-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-07-data-jpa-thymeleaf/spring-boot-07-data-jpa-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-08-redis/spring-boot-08-redis.iml" filepath="$PROJECT_DIR$/spring-boot-08-redis/spring-boot-08-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-09-rabbitmq/spring-boot-09-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-09-rabbitmq/spring-boot-09-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-10-schedule/spring-boot-10-schedule.iml" filepath="$PROJECT_DIR$/spring-boot-10-schedule/spring-boot-10-schedule.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-12-mongodb/spring-boot-12-mongodb.iml" filepath="$PROJECT_DIR$/spring-boot-12-mongodb/spring-boot-12-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-12-multimongodb/spring-boot-12-multimongodb.iml" filepath="$PROJECT_DIR$/spring-boot-12-multimongodb/spring-boot-12-multimongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-13-shiro/spring-boot-13-shiro.iml" filepath="$PROJECT_DIR$/spring-boot-13-shiro/spring-boot-13-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-14-file-upload/spring-boot-14-file-upload.iml" filepath="$PROJECT_DIR$/spring-boot-14-file-upload/spring-boot-14-file-upload.iml" />
     </modules>
   </component>
 </project>

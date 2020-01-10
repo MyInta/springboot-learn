@@ -28,6 +28,8 @@
         <option value="$PROJECT_DIR$/spring-boot-12-mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-12-multimongodb/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-13-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-07-data-jpa-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-14-file-upload/pom.xml" />
       </list>
     </option>
   </component>
